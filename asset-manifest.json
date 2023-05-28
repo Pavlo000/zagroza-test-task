@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/zagroza-test-task/static/css/main.1d64daa5.css",
+    "main.js": "/zagroza-test-task/static/js/main.d74b70fc.js",
+    "static/media/person.svg": "/zagroza-test-task/static/media/person.0cdd392704755a62b540d868e1d5d6fd.svg",
+    "static/media/about-background.svg": "/zagroza-test-task/static/media/about-background.f22803976d7e888185ec.svg",
+    "static/media/message.svg": "/zagroza-test-task/static/media/message.b708563ae6dffbdd2fa04c6f7cb824b6.svg",
+    "static/media/darts.svg": "/zagroza-test-task/static/media/darts.c51ca51f619cf62cd0c5180898790435.svg",
+    "static/media/coin.svg": "/zagroza-test-task/static/media/coin.4cd6fcf50932ed89a1fb2f5f80cc15da.svg",
+    "static/media/card.svg": "/zagroza-test-task/static/media/card.c53d2c72bcc3a952cb4106cb9d0f8c9f.svg",
+    "static/media/whats-app.svg": "/zagroza-test-task/static/media/whats-app.b564e5e21a22fc73a2f20efb7ae40f6c.svg",
+    "static/media/logo.svg": "/zagroza-test-task/static/media/logo.2d7db0b1d7fe8013c053a16621dd2939.svg",
+    "static/media/instagram.svg": "/zagroza-test-task/static/media/instagram.ce5768c1d3d380b0627b9be4a183e082.svg",
+    "static/media/plus.svg": "/zagroza-test-task/static/media/plus.b9cd5b9a20da9f13ad55ebd26a02c521.svg",
+    "static/media/menu.svg": "/zagroza-test-task/static/media/menu.43d483274a863f89e99d1e4cec416f7b.svg",
+    "index.html": "/zagroza-test-task/index.html",
+    "static/media/facebook.svg": "/zagroza-test-task/static/media/facebook.81ebaa7b3c86a4c65efec0487112730e.svg",
+    "main.1d64daa5.css.map": "/zagroza-test-task/static/css/main.1d64daa5.css.map",
+    "main.d74b70fc.js.map": "/zagroza-test-task/static/js/main.d74b70fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d64daa5.css",
+    "static/js/main.d74b70fc.js"
+  ]
+}
