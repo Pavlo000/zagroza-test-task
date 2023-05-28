@@ -1,0 +1,29 @@
+@mixin hover() {
+  transition: all 0.3s;
+  &:hover {
+    @content;
+  }
+}
+
+@mixin selected($_color) {
+  font-weight: 600;
+  color: $_color;
+}
+
+@mixin onTablet() {
+  @media (min-width:  640px) {
+    @content;
+  }
+}
+
+@mixin onNotebook() {
+  @media (min-width:  1024px) {
+    @content;
+  }
+}
+
+@mixin onLargeScreens() {
+  @media (min-width:  2560px) {
+    @content;
+  }
+}

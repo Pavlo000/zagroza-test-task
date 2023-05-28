@@ -1,0 +1,33 @@
+@import "../../assets/styles/main.scss";
+
+.Testimonials {
+  &__title {
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto 24px;
+    
+    @include onNotebook() {
+      &::after {
+        content: '';
+        display: block;
+        margin: 10px auto;
+        width: 100px;
+        height: 2px;
+        background-color: $amarelo-color;
+      }
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @include onNotebook() {
+      flex-direction: row;
+    }
+  }
+}

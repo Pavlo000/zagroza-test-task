@@ -1,0 +1,77 @@
+@import "../../assets/styles/main.scss";
+
+$image-bottom: 150px;
+
+.Header {
+  padding-bottom: $image-bottom;
+
+  &__wrapper {
+    background-color: $roxo-escuro-color;
+  }
+
+  &__content {
+    @include onNotebook() {
+      display: flex;
+    }
+  }
+
+  &__navigation {
+    margin-left: -$container-size-mobile;
+    margin-right: -$container-size-mobile;
+    margin-bottom: 60px;
+
+
+    @include onNotebook() {
+      margin-left: -$container-size-desktop;
+      margin-right: -$container-size-desktop;
+    }
+  }
+
+  &__image {
+    width: 320px;
+
+    @include onTablet() {
+      width: unset;
+    }
+
+    margin-bottom: -$image-bottom;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    max-width: 300px;
+
+    @include onNotebook() {
+      max-width: 570px;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 32px;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    @include onNotebook() {
+      flex-direction: row;
+    }
+  }
+
+  &__button {
+    &--transaparent {
+      background-color: transparent;
+      border: 1px solid #fff;
+
+      &>span {
+        color: #fff;
+      }
+    }
+  }
+
+  &__selected-text {
+    @include selected($amarelo-color);
+  }
+}

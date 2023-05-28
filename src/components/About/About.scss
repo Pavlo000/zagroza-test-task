@@ -1,0 +1,52 @@
+@import "../../assets/styles/main.scss";
+
+.About {
+  display: flex;
+  flex-direction: column;
+  @include onNotebook() {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__block:last-child {
+    margin-right: -$container-size-mobile;
+    
+    @include onNotebook() {
+      margin-right: -$container-size-desktop;
+    }
+  }
+
+  &__background {
+    height: 500px;
+
+    @include onTablet() {
+      height: 700px;
+    }
+
+    @include onNotebook() {
+      height: 600px;
+      width: 600px;
+    }
+    background-image: url('../../assets/icons/about-background.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+
+  &__selected-text {
+    @include selected($amarelo-color);
+  }
+
+  &__hashtag {
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__subtitle {
+    margin-bottom: 16px;
+  }
+}

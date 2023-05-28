@@ -1,0 +1,42 @@
+$image-top: 80px;
+
+.testimonial {
+  padding-top: $image-top;
+
+  &__wrapper {
+    box-shadow: 0px 9px 27px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 0 30px 30px;
+    position: relative;
+    min-height: 290px;
+  }
+
+  &__image {
+    margin-top: -$image-top;
+    margin-bottom: 50px;
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__subtitle {
+    max-width: 220px;
+    margin-bottom: 10px;
+  }
+
+  &__icon {
+    position: absolute;
+    bottom: 18px;
+    right: 25px;
+
+    fill: $roxo-color;
+
+    @include hover() {
+      transform: rotate(-45deg);
+    }
+  }
+}

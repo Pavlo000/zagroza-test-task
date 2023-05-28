@@ -1,0 +1,25 @@
+@import "../../assets/styles/main.scss";
+
+
+.Footer {
+  background-color: $roxo-escuro-color;
+
+  &__section {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    fill: #fff;
+  }
+  
+  &__social {
+    display: flex;
+    gap: 65px;
+  }
+
+  &__author {
+    color: #fff;
+  }
+}

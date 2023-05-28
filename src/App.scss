@@ -1,0 +1,14 @@
+@import "./assets/styles/main.scss";
+
+.App {
+  &__section {
+
+    &--background {
+      background-color: $grey-color;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 50px;
+    }
+  }
+}

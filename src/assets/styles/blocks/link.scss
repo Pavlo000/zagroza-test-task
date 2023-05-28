@@ -1,0 +1,15 @@
+.link {
+  display: inline-block;
+
+  @include hover() {
+    transform: scale(1.1);
+    fill: $roxo-escuro-color;
+  }
+
+  &--lite {
+    @include hover() {
+      transform: scale(1.1);
+      fill: $amarelo-color;
+    }
+  }
+}

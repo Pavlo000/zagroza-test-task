@@ -1,0 +1,47 @@
+@import "../../assets/styles/main.scss";
+
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #fff;
+
+  &__block {
+    &--logo {
+      @include onNotebook() {
+        order: -1;
+      }
+    }
+  }
+
+  &__list {
+    display: none;
+    
+    @include onNotebook() {
+      display: flex;
+      gap: 100px;
+    }
+    
+    @include onLargeScreens() {
+      display: flex;
+      gap: 180px;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  &__menu {
+    @include onNotebook() {
+      display: none;
+    }
+  }
+
+  &__logo {
+    fill: #000;
+  }
+}
